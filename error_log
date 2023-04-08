@@ -1,0 +1,12 @@
+[09-Oct-2021 09:29:50 UTC] PHP Fatal error:  Uncaught ErrorException: proc_open(): fork failed - Resource temporarily unavailable in phar:///usr/local/bin/composer.phar/vendor/symfony/console/Application.php:952
+Stack trace:
+#0 [internal function]: Composer\Util\ErrorHandler::handle(2, 'proc_open(): fo...', 'phar:///usr/loc...', 952, Array)
+#1 phar:///usr/local/bin/composer.phar/vendor/symfony/console/Application.php(952): proc_open('stty -a | grep ...', Array, NULL, NULL, NULL, Array)
+#2 phar:///usr/local/bin/composer.phar/vendor/symfony/console/Application.php(753): Symfony\Component\Console\Application->getSttyColumns()
+#3 phar:///usr/local/bin/composer.phar/vendor/symfony/console/Application.php(714): Symfony\Component\Console\Application->getTerminalDimensions()
+#4 phar:///usr/local/bin/composer.phar/vendor/symfony/console/Application.php(648): Symfony\Component\Console\Application->getTerminalWidth()
+#5 phar:///usr/local/bin/composer.phar/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException(Object(Err in phar:///usr/local/bin/composer.phar/vendor/symfony/console/Application.php on line 952
+[11-Oct-2021 11:45:25 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\AdminController::delete_feature() in /home/u948355928/domains/olderadultsonline.com/public_html/app/Http/Controllers/Admin/AdminController.php on line 275
+[21-Oct-2021 07:27:29 UTC] PHP Fatal error:  Cannot use App\Models\Specialities as Specialities because the name is already in use in /home/u948355928/domains/olderadultsonline.com/public_html/app/Http/Controllers/Doctor/DoctorController.php on line 18
+[26-Oct-2021 11:25:19 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Trainer\TrainerController::add_new_course() in /home/u948355928/domains/olderadultsonline.com/public_html/app/Http/Controllers/Trainer/TrainerController.php on line 207
+[26-Oct-2021 12:28:02 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/u948355928/domains/olderadultsonline.com/public_html/app/Http/Controllers/Trainer/TrainerController.php on line 235
